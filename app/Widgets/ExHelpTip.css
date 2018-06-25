@@ -1,0 +1,143 @@
+﻿.HelpTip
+{
+    position:absolute;
+    top:100px;
+    left:100px;
+    height:24px;
+    overflow:visible;
+    z-index:1000;
+}
+
+   
+    
+.HelpTip-Float
+{
+    position:relative;
+    top:0px;
+    left:0px;
+    margin-right:30px;
+    margin-top:-28px;
+    float:right;
+}
+
+
+.HelpTip .tellMore {
+    color:#5CB0C2;
+    cursor:pointer;
+}
+
+
+.HelpTip .HelpWindow
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    max-width:300px;
+    min-width:300px;
+    width:auto;
+    height:auto;
+    border : 1px;   border-color:white;   border-style:solid;     
+    background-color:black;
+    color:White;
+    border-radius:5px;
+    padding:2px;
+    text-align:center;
+    overflow:hidden;
+    white-space:normal;
+    cursor:pointer;
+    display:none;
+}
+
+.HelpTip .HelpWindowSmall
+{
+    width:200px;
+    max-width:200px;
+    min-width:200px;
+    height:70px;
+    max-height:70px;
+    min-height:70px;
+    
+}
+ 
+.HelpTip .HelpWindowSmall .Title
+{
+    
+    font-weight:bold;
+}
+   
+.HelpTip .MainImg
+{
+        cursor:pointer;
+        width:20px;
+        max-width:20px;
+        height:20px;
+        max-height:20px;
+}
+
+
+.HelpTip .VideoImg
+{
+    width:20px;
+}
+
+.HelpTip .HelpWindow a:hover 
+{
+    
+    color:#1BADFF;
+}
+
+.HelpTip .HelpWindow a:visited
+{
+    color:gray;
+}
+
+.HelpTip .HelpWindow a 
+{
+    color:#6FC6FF;
+}
+
+.HelpTip .Title
+{
+    font-weight:bold;
+    margin : 0 auto;
+    border :0;   border-color:blue;   border-style:solid;     
+    font-size:120%;
+    width:50%;
+}
+
+.HelpTip .HelpTipContent
+{
+    width:100%;
+    height:100%;
+    text-align:left;
+    margin-top:20px;
+    margin-left:0px;
+    padding:5px;
+    border :0;   border-color:red;   border-style:solid;     
+}
+
+.HelpTip .HelpWindow .HelpTipImg
+{
+    float:left;
+    margin: 0px;
+    width:20px;
+    height:20px;
+    display:none;
+}
+
+.HelpTip .HelpWindow .CloseHelpTipBtn
+{
+    float:right;
+    width:15px;
+    height:15px;
+    margin: 0;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+

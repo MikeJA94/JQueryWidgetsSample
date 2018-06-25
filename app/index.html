@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JQuery Widgets Sample</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../Scripts/angular.min.js"></script>
+    <script src="../Scripts/angular-route.min.js"></script>
+    <script src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <!--App-->
+    <!-- HelpTip plugin -->
+    <link href="Widgets/ExHelpTip.css" rel="stylesheet" type="text/css" />
+    <script src="Widgets/ExHelpTip.js" type="text/javascript"></script>
+    <!-- End HelpTip plugin -->
+
+    <!-- StickyNote Plugin -->
+    <link href="Widgets/ExStickyNote.css" rel="stylesheet" type="text/css" />
+    <script src="Widgets/ExStickyNote.js" type="text/javascript"></script>
+    <!-- End StickyNote Plugin -->
+
+    <script src="app.js"></script>
+    <link href="index.css" rel="stylesheet" />
+    
+</head>
+<body ng-app="MyApp" ng-controller="MainCtrl">
+    <!--nRoute will handle these options-->
+<ul class="mainNav"><li><a href="#/WidgetView1/About" name="group1">Help Tips</a></li><li><a href="#/WidgetView2/About" name="group1">Sticky Notes</a></li></ul>
+    
+    <div class="container">
+           <div ng-view></div>    
+    </div>
+</body> 
+</html>
+
+

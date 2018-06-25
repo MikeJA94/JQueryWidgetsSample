@@ -1,0 +1,13 @@
+﻿{
+    "addressArray":[
+		{"name":"Fenway Park","address":"Fenway Park, Boston","image":"fenway.jpg"},
+		{"name":"PNC Arena","address":"1400 Edwards Mill Rd, Raleigh, NC 27607","image":"pnc.jpg"},
+		{"name":"Statue of Liberty","address":"Statue of Liberty in New York, USA","image":"statue.jpg"},
+		{"name":"Walt Disney World","address":"Walt Disney World","image":"walt.jpg"},
+		{"name":"Golden Gate Bridge","address":"Golden Gate Bridge","image":"golden.jpg"},
+		{"name":"Times Square","address":"Times Square","image":"times.jpg"},
+		{"name":"Niagara Falls","address":"Niagara Falls","image":"niagara.jpg"},
+		{"name":"Las Vegas Strip","address":"Las Vegas Strip","image":"las.jpg"},
+		{"name":"Grand Canyon","address":"Grand Canyon","image":"grand.jpg"}
+    ]
+}
